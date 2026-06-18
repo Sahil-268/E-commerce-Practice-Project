@@ -1,4 +1,4 @@
-# E-Commerce Practice Praject
+# E-Commerce Practice Project
 
 ## Research:
 
@@ -12,3 +12,10 @@
 > It causes rerenders
 
 ### 3.Props V/S States
+
+| Props | States |
+| :--- | :--- |
+| It is passed from the parent | managed inside the component |
+| Read only | Can Change |
+| For communication | For dynamic data |
+
