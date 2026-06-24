@@ -1,0 +1,16 @@
+.header {
+  background: var(--color-white);
+
+  button:hover,
+  a:hover {
+    color: var(--color-primary-hover) !important;
+  }
+}
+
+.logo {
+  font-family: var(--font-logo);
+  color: var(--color-primary);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: -2px;
+}

@@ -1,0 +1,21 @@
+.card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  color: var(--color-black);
+  font-family: var(--font-body);
+}
+
+.card:hover {
+  border-color: var(--color-primary) !important;
+  box-shadow: 0 10px 30px rgba(230, 30, 43, 0.08);
+}
+
+.card h3 {
+  font-family: var(--font-headings);
+  color: var(--color-black);
+  transition: color 0.3s ease;
+}
+
+.card:hover h3 {
+  color: var(--color-primary);
+}

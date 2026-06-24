@@ -1,0 +1,47 @@
+.card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  font-family: var(--font-body);
+}
+.wishlistBtn {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
+  border: none;
+  cursor: pointer;
+}
+
+.wishlistBtn:hover {
+  background-color: var(--color-white);
+  transform: scale(1.05);
+}
+.category {
+  color: var(--color-dark-gray);
+  opacity: 0.8;
+}
+.title {
+  font-family: var(--font-headings);
+  color: var(--color-black);
+  letter-spacing: 0px;
+}
+
+.ratingText {
+  color: var(--color-dark-gray);
+}
+
+.price {
+  color: var(--color-primary);
+  font-family: var(--font-body), var(--font-headings);
+}
+
+.button {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-headings);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: var(--color-primary);
+}

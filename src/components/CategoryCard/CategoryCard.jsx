@@ -1,26 +1,25 @@
+import Style from "./CategoryCard.module.css";
+
 const CategoryCard = ({ category }) => {
   const Icon = category.icon;
 
   return (
     <div
-      className="
-      group
-      bg-white
-      rounded-3xl
-      p-8
-      text-center
-      border
-      hover:border-red-500
-      hover:-translate-y-2
-      transition-all
-      duration-300
-      cursor-pointer
-    "
+      className={`${Style.card}
+        group
+        rounded-3xl
+        p-8
+        text-center
+        transition-all
+        duration-300
+        cursor-pointer
+        hover:-translate-y-2
+      `}
     >
       <div className="flex justify-center mb-4">
         <Icon
           size={42}
-          className="text-red-500 group-hover:scale-110 transition"
+          className={`${Style.icon} group-hover:scale-110 transition-transform duration-300`}
         />
       </div>
 
