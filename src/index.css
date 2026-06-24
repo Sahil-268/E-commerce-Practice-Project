@@ -1,17 +1,56 @@
 @import "tailwindcss";
 
+/* --- Google Fonts Integration --- */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@700;800&family=Inter:wght@400;500;600&display=swap');
+
+/* --- Local Font (Kept exclusively for Logo/Accents) --- */
+@font-face {
+  font-family: "Supercharge Expanded";
+  src: url("./assets/fonts/supercharge-font/SuperchargeExpanded-z83aw.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Supercharge Laser";
+  src: url("./assets/fonts/supercharge-font/SuperchargeLaser-9YZjj.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* --- Typography Families --- */
+  --font-logo: 'Supercharge Expanded', sans-serif;
+  --font-headings: 'Chivo', sans-serif;  /* Clean, punchy tech heading font */
+  --font-body: 'Inter', sans-serif;      /* Crisp, legible UI text font */
+  --font-accent: 'Supercharge Laser', sans-serif;
+
+  /* --- Color Palette --- */
+  --color-primary: #e61e2b;        
+  --color-primary-hover: #c1121f;  
+  --color-primary-light: #fbe8ea;  
+
+  --color-black: #0f1012;          
+  --color-dark-gray: #4a4a4a;      
+  --color-border: #e0e0e0;         
+  --color-bg-light: #f8f9fa;       
+  --color-white: #ffffff;          
+}
+
 @layer base {
   body {
+    font-family: var(--font-body);
+    color: var(--color-black);
+    background-color: var(--color-white);
     min-height: 100vh;
     line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-headings);
+    font-weight: 700;
     line-height: 1.25;
+    letter-spacing: -0.02em; /* Keeps Chivo looking tight and premium */
   }
 }
