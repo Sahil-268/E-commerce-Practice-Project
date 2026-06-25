@@ -7,7 +7,7 @@
 
 .card:hover {
   border-color: var(--color-primary) !important;
-  box-shadow: 0 10px 30px rgba(230, 30, 43, 0.08);
+  /* box-shadow: 0 10px 30px rgba(230, 30, 43, 0.08); */
 }
 
 .card h3 {
@@ -17,5 +17,10 @@
 }
 
 .card:hover h3 {
+  color: var(--color-primary);
+}
+
+.active {
+  border-color: var(--color-primary) !important;
   color: var(--color-primary);
 }

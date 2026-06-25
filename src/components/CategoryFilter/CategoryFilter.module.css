@@ -1,0 +1,13 @@
+.section {
+  background-color: var(--color-bg-light);
+  font-family: var(--font-body);
+}
+
+.heading {
+  font-family: var(--font-headings);
+  color: var(--color-black);
+}
+
+.subHeading {
+  color: var(--color-dark-gray);
+}

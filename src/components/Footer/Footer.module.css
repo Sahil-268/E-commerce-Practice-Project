@@ -1,0 +1,46 @@
+.footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-body);
+}
+
+.logo {
+  font-family: var(--font-logo);
+  color: var(--color-white);
+}
+
+.heading {
+  font-family: var(--font-headings);
+  color: var(--color-white);
+}
+
+.linkItem {
+  color: var(--color-bg-light);
+  transition: color 0.2s ease;
+}
+
+.linkItem:hover {
+  color: var(--color-primary-light);
+}
+
+.socialIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: #1e1f22; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  transition: all 0.3s ease;
+}
+
+.socialIcon:hover {
+  background-color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.copyright {
+  border-top: 1px solid #2e2f33;
+  color: var(--color-dark-gray);
+}

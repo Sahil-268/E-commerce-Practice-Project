@@ -1,10 +1,11 @@
 import Style from "./CategoryCard.module.css";
 
-const CategoryCard = ({ category }) => {
+const CategoryCard = ({ category, isActive, onClick }) => {
   const Icon = category.icon;
 
   return (
     <div
+      onClick={onClick}
       className={`${Style.card}
         group
         rounded-3xl
@@ -13,13 +14,14 @@ const CategoryCard = ({ category }) => {
         transition-all
         duration-300
         cursor-pointer
-        hover:-translate-y-2
+        hover:-translate-y-1
+         ${isActive ? Style.active : ""}
       `}
     >
       <div className="flex justify-center mb-4">
         <Icon
           size={42}
-          className={`${Style.icon} group-hover:scale-110 transition-transform duration-300`}
+          className={`${Style.icon} group-hover:scale-105 transition-transform duration-300`}
         />
       </div>
 

@@ -2,119 +2,95 @@ import InstagramIcon from "@iconify-react/line-md/instagram";
 import TwitterXIcon from "@iconify-react/line-md/twitter-x";
 import LinkedinIcon from "@iconify-react/line-md/linkedin";
 
+import logoWhite from "../../assets/images/logo/logo-white.svg";
+
+import Style from "./Footer.module.css";
+
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
+    <footer className={Style.footer}>
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
-          {/* Brand */}
-
-          <div>
-            <h2 className="text-3xl font-bold mb-4 logo">Apex</h2>
-
-            <p className="text-gray-400 leading-relaxed">
-              Premium gadgets, gaming gear, and smart accessories built for the
-              next generation of technology enthusiasts.
-            </p>
+          <div className="flex items-center gap-2 mb-4 cursor-pointer">
+            <img src={logoWhite} alt="logo" className="w-14 h-14" />
+            <h2 className={`${Style.logo} text-3xl font-bold `}>Apex</h2>
           </div>
 
-          {/* Quick Links */}
-
           <div>
-            <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
-
-            <ul className="space-y-3 text-gray-400">
+            <h3 className={`${Style.heading} font-semibold text-lg mb-4`}>
+              Quick Links
+            </h3>
+            <ul className="space-y-3">
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className={Style.linkItem}>
                   Products
                 </a>
               </li>
-
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className={Style.linkItem}>
                   Categories
                 </a>
               </li>
-
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className={Style.linkItem}>
                   Trending
                 </a>
               </li>
-
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className={Style.linkItem}>
                   Wishlist
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* customer Support */}
-
           <div>
-            <h3 className="font-semibold text-lg mb-4">Support</h3>
-
-            <ul className="space-y-3 text-gray-400">
+            <h3 className={`${Style.heading} font-semibold text-lg mb-4`}>
+              Support
+            </h3>
+            <ul className="space-y-3">
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className={Style.linkItem}>
                   Help Center
                 </a>
               </li>
-
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className={Style.linkItem}>
                   Shipping
                 </a>
               </li>
-
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className={Style.linkItem}>
                   Returns
                 </a>
               </li>
-
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#" className={Style.linkItem}>
                   Contact
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Social links */}
-
           <div>
-            <h3 className="font-semibold text-lg mb-4">Stay Connected</h3>
-
+            <h3 className={`${Style.heading} font-semibold text-lg mb-4`}>
+              Stay Connected
+            </h3>
             <div className="flex gap-4">
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-red-600 transition"
-              >
-                <InstagramIcon height="1.8em" />
+              <a href="#" className={Style.socialIcon}>
+                <InstagramIcon height="1.9em" />
               </a>
-
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-red-600 transition"
-              >
-                <TwitterXIcon height="1.8em" />{" "}
+              <a href="#" className={Style.socialIcon}>
+                <TwitterXIcon height="1.6em" />
               </a>
-
-              <a
-                href="#"
-                className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-red-600 transition"
-              >
-                <LinkedinIcon height="1.8em" />{" "}
+              <a href="#" className={Style.socialIcon}>
+                <LinkedinIcon height="1.7em" />
               </a>
             </div>
           </div>
         </div>
 
-        {/* Copyright section */}
-
-        <div className="border-t border-zinc-800 mt-12 pt-6 text-center text-gray-500">
+        <div className={`${Style.copyright} mt-12 pt-6 text-center`}>
           © 2026 Apex. All Rights Reserved.
         </div>
       </div>
