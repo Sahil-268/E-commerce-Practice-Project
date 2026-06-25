@@ -69,7 +69,7 @@ const InfiniteScrollSection = ({ selectedCategory }) => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {items.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <ProductCard key={product.id} product={product} id={product.id} />
           ))}
 
           {isLoading &&
@@ -84,7 +84,7 @@ const InfiniteScrollSection = ({ selectedCategory }) => {
           </div>
         ) : (
           <div className={Style.statusContainer}>
-            <div className={Style.endText}>You've reached the apex! 🎉</div>
+            <div className={Style.endText}>You've reached the apex!</div>
           </div>
         )}
       </div>

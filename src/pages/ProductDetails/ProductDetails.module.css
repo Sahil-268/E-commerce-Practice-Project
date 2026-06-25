@@ -1,0 +1,99 @@
+.section {
+  background-color: var(--color-bg-light);
+  font-family: var(--font-body);
+}
+
+/* ✅ FIXED: Height restrictions and independent panel scrolling logic isolated to Desktop viewports only */
+@media (min-width: 768px) {
+  .section {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .mainGrid {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .leftScrollPanel,
+  .rightScrollPanel {
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom: 2rem;
+    scrollbar-width: none; /* Hide standard firefox tracking */
+  }
+
+  .leftScrollPanel::-webkit-scrollbar,
+  .rightScrollPanel::-webkit-scrollbar {
+    display: none; /* Hide Chrome/Safari visual tracking bars */
+  }
+}
+
+/* Mobile-First layout definitions */
+.leftScrollPanel,
+.rightScrollPanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: var(--font-headings);
+  color: var(--color-black);
+}
+
+.description {
+  color: var(--color-dark-gray);
+  line-height: 1.7;
+}
+
+.price {
+  color: var(--color-black);
+  font-family: var(--font-headings);
+}
+
+.featureBadge {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  color: var(--color-black);
+  font-weight: 500;
+}
+
+.primaryBtn {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  transition: background-color 0.2s ease;
+}
+
+.primaryBtn:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.secondaryBtn {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  color: var(--color-black);
+  transition: all 0.2s ease;
+}
+
+.secondaryBtn:hover {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border-color: var(--color-black);
+}
+
+.fallbackContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-body);
+}
+
+.fallbackHeading {
+  font-family: var(--font-headings);
+  color: var(--color-black);
+  margin-bottom: 1rem;
+}

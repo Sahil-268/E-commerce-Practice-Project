@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@iconify-react/hugeicons": "^1.0.8",
     "@iconify-react/ic": "^1.0.2",
     "@iconify-react/line-md": "^1.0.2",
     "@iconify-react/si": "^1.0.2",

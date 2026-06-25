@@ -1,11 +1,13 @@
 import { useState } from "react";
 import Style from "./ProductCard.module.css";
 
+import { Link } from "react-router-dom";
+
 import HeartLineIcon from "@iconify-react/si/heart-line";
 import HeartFillIcon from "@iconify-react/si/heart-fill";
 import RoundStarIcon from "@iconify-react/ic/round-star-rate";
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product, id }) => {
   const [isWishlisted, setIsWishlisted] = useState(false);
 
   return (
@@ -14,7 +16,7 @@ const ProductCard = ({ product }) => {
     >
       <div className="relative overflow-hidden">
         <img
-          src={product.image}
+          src={`${product.image}?w=400&h=400&fit=crop`}
           alt={product.name}
           className="h-64 w-full object-cover group-hover:scale-105 transition duration-500"
         />
@@ -33,25 +35,21 @@ const ProductCard = ({ product }) => {
       </div>
 
       <div className="p-5">
-        {/* Category Label */}
         <span
           className={`${Style.category} text-xs font-semibold uppercase tracking-wider transition duration-500`}
         >
           {product.category || "Category"}
         </span>
 
-        {/* Product Title */}
         <h3 className={`${Style.title} font-semibold text-lg mt-1 truncate`}>
           {product.name}
         </h3>
 
         <div className="flex justify-between">
-          {/* Product Price */}
           <p className={`${Style.price} font-bold mt-3 text-md mb-1`}>
             {product.price}
           </p>
 
-          {/* Rating Row */}
           <div className="flex items-center gap-1 mt-2">
             <div className="flex text-amber-400">
               <RoundStarIcon height="1.5em" className="mb-1" />{" "}
@@ -62,12 +60,13 @@ const ProductCard = ({ product }) => {
           </div>
         </div>
 
-        {/* Action Button */}
-        <button
-          className={`${Style.button} mt-4 w-full py-3 rounded-xl transition`}
-        >
-          View Details
-        </button>
+        <Link to={`/product/${id}`}>
+          <button
+            className={`${Style.button} mt-4 w-full py-3 rounded-xl transition`}
+          >
+            View Details
+          </button>
+        </Link>
       </div>
     </div>
   );

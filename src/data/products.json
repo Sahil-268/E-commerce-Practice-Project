@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "name": "Apex WH-1000 Pro Wireless Headphones",
     "category": "Audio",
     "price": "₹29,999",
     "rating": 4.8,
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
-    "full_description": "Industry-leading noise canceling headphones with exceptional sound quality, crystal-clear hands-free calling, and a comfortable, lightweight design.",
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b",
+    "full_description": "Industry-leading noise-canceling headphones with exceptional sound quality, crystal-clear hands-free calling, and a comfortable, lightweight design.",
     "features": [
       "Industry-leading ANC",
       "30-hour battery life",
@@ -16,12 +16,12 @@
   },
   {
     "id": 2,
-    "name": "Logitech G Pro X Superlight",
+    "name": "Apex G-Pro Superlight Mouse",
     "category": "Gaming",
     "price": "₹13,499",
     "rating": 4.9,
-    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db",
-    "full_description": "An ultra-lightweight gaming mouse designed collaboration with top esports pros. Features the HERO 25K sensor for pixel-precise accuracy.",
+    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7",
+    "full_description": "An ultra-lightweight gaming mouse designed in collaboration with top esports pros. Features the HERO 25K sensor for pixel-precise accuracy.",
     "features": [
       "Less than 63 grams",
       "HERO 25K Sensor",
@@ -36,7 +36,7 @@
     "price": "₹41,999",
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
-    "full_description": "The ultimate device for a healthy life is now even more powerful. Features the S9 SiP chip, a brighter display, and magic new way to use your watch without touching the screen.",
+    "full_description": "The ultimate device for a healthy life is now even more powerful. Features the S9 SiP chip, a brighter display, and a magic new way to use your watch without touching the screen.",
     "features": [
       "Double tap gesture",
       "Advanced health tracking",
@@ -50,7 +50,7 @@
     "category": "Mobile",
     "price": "₹129,999",
     "rating": 4.9,
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+    "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
     "full_description": "Welcome to the era of mobile AI. With Galaxy S24 Ultra in your hands, you can unleash whole new levels of creativity, productivity, and possibility.",
     "features": [
       "Galaxy AI built-in",
@@ -61,11 +61,11 @@
   },
   {
     "id": 5,
-    "name": "UltraWide Monitor",
+    "name": "Apex Horizon 34-Inch UltraWide Monitor",
     "category": "Setups",
     "price": "₹24,999",
     "rating": 4.9,
-    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+    "image": "https://images.unsplash.com/photo-1663074142901-85ea19c8665a?q=80&w=832&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Immerse yourself in panoramic views. This 34-inch UltraWide monitor maximizes your multitasking real estate for both work and hardcore gaming.",
     "features": [
       "21:9 Aspect Ratio",
@@ -76,11 +76,11 @@
   },
   {
     "id": 6,
-    "name": "Pro Controller",
+    "name": "Pro Wireless Gamepad",
     "category": "Consoles",
     "price": "₹4,499",
     "rating": 4.4,
-    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc",
+    "image": "https://images.unsplash.com/photo-1592840496694-26d035b52b48?q=80&w=825&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Take your console gaming to the next level with motion controls, HD rumble, and a premium ergonomic grip designed for marathon sessions.",
     "features": [
       "Ergonomic Design",
@@ -91,11 +91,11 @@
   },
   {
     "id": 7,
-    "name": "Studio Microphone",
+    "name": "Apex StreamCast Studio Microphone",
     "category": "Audio",
     "price": "₹7,999",
     "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1590602847861-f357a9332bbc",
+    "image": "https://images.unsplash.com/photo-1531651008558-ed1740375b39?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Professional-grade USB condenser microphone delivering crystal-clear audio quality for podcasters, streamers, and studio musicians.",
     "features": [
       "Cardioid Polar Pattern",
@@ -106,11 +106,11 @@
   },
   {
     "id": 8,
-    "name": "RGB Mousepad",
+    "name": "Extended Mousepad",
     "category": "Gaming",
     "price": "₹1,499",
     "rating": 4.3,
-    "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7",
+    "image": "https://images.unsplash.com/photo-1707858004668-d33b9a1d1956?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "A massive, soft gaming mousepad featuring vibrant dynamic 360-degree RGB tracking illumination and a micro-woven cloth surface.",
     "features": [
       "Dynamic RGB Lighting",
@@ -121,11 +121,11 @@
   },
   {
     "id": 9,
-    "name": "Wireless Earbuds",
+    "name": "Apex NeoPods True Wireless Earbuds",
     "category": "Audio",
     "price": "₹3,999",
     "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df",
+    "image": "https://images.unsplash.com/photo-1578319439584-104c94d37305?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "True wireless earbuds featuring premium sound engineering, touch controls, and a compact charging case built for everyday commuters.",
     "features": [
       "Active Noise Cancellation",
@@ -151,22 +151,22 @@
   },
   {
     "id": 11,
-    "name": "Ergonomic Desk Chair",
+    "name": "Apex Quantum-View Desktop Lightbar",
     "category": "Setups",
-    "price": "₹14,999",
-    "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1505797149-43b0069ec26b",
-    "full_description": "Say goodbye to back pain. This desk chair offers adjustable lumbar support, 3D armrests, and breathable mesh fabric to keep you cool.",
+    "price": "₹4,999",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?q=80&w=1331&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "full_description": "Asymmetrical monitor desk lamp designed to illuminate your screen workspace perfectly while eliminating reflective display glare and eye fatigue.",
     "features": [
-      "Adjustable Lumbar Support",
-      "3D Dynamic Armrests",
-      "Breathable Mesh Back",
-      "Tilt and Recline Lock"
+      "Asymmetric Optical Design",
+      "Stepless Dimming Controls",
+      "USB-Powered Connectivity",
+      "Hue Temperature Adjust"
     ]
   },
   {
     "id": 12,
-    "name": "Next-Gen Console",
+    "name": "Next-Gen Gaming Console",
     "category": "Consoles",
     "price": "₹49,999",
     "rating": 4.9,
@@ -181,7 +181,7 @@
   },
   {
     "id": 13,
-    "name": "Soundbar 360",
+    "name": "Cinematic Soundbar 360",
     "category": "Audio",
     "price": "₹11,999",
     "rating": 4.5,
@@ -196,12 +196,12 @@
   },
   {
     "id": 14,
-    "name": "Mechanical Keyboard Pro",
+    "name": "Apex Striker Mechanical Keyboard",
     "category": "Gaming",
     "price": "₹8,499",
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef",
-    "full_description": "A tenkeyless mechanical keyboard featuring hot-swappable linear switches, per-key RGB lighting, and an aircraft-grade aluminum frame.",
+    "full_description": "A tenkeyless mechanical gaming keyboard featuring hot-swappable linear switches, per-key RGB lighting, and an aircraft-grade aluminum frame.",
     "features": [
       "Hot-Swappable Switches",
       "Per-Key RGB Lighting",
@@ -211,7 +211,7 @@
   },
   {
     "id": 15,
-    "name": "Fitness Tracker Band",
+    "name": "Active Fitness Tracker Band",
     "category": "Wearables",
     "price": "₹2,999",
     "rating": 4.2,
@@ -241,7 +241,7 @@
   },
   {
     "id": 17,
-    "name": "Dual Monitor Stand",
+    "name": "Dual Articulating Monitor Arm",
     "category": "Setups",
     "price": "₹3,499",
     "rating": 4.6,
@@ -256,7 +256,7 @@
   },
   {
     "id": 18,
-    "name": "Retro Arcade Console",
+    "name": "Retro Arcade Mini Console",
     "category": "Consoles",
     "price": "₹5,999",
     "rating": 4.4,
@@ -271,11 +271,11 @@
   },
   {
     "id": 19,
-    "name": "Studio Headset Monitor",
+    "name": "Apex Studio-Master Headset",
     "category": "Audio",
     "price": "₹9,999",
     "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b",
+    "image": "https://images.unsplash.com/photo-1755719401938-35c1b24f6d15?q=80&w=1121&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Over-ear studio monitoring headphones offering flat, accurate frequency responses required for precise music mixing and audio mastering.",
     "features": [
       "Flat Frequency Response",
@@ -286,11 +286,11 @@
   },
   {
     "id": 20,
-    "name": "Wireless Gaming Mouse",
+    "name": "Wireless Customizable Gaming Mouse",
     "category": "Gaming",
     "price": "₹5,499",
     "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1625773453173-0136d031e847",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db",
     "full_description": "Lag-free wireless gaming mouse engineered with customizable side weights, an ultra-fast optical sensor, and programmable macros.",
     "features": [
       "Lag-Free Wireless",
@@ -301,11 +301,11 @@
   },
   {
     "id": 21,
-    "name": "Luxury Titanium Watch",
+    "name": "Apex Chrono-Titan Smartwatch",
     "category": "Wearables",
     "price": "₹28,999",
     "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6",
+    "image": "https://images.unsplash.com/photo-1544117519-31a4b719223d?q=80&w=752&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "A rugged yet classy smartwatch built out of aerospace-grade titanium, featuring advanced offline maps and multi-sport GPS tracking.",
     "features": [
       "Titanium Alloy Case",
@@ -320,7 +320,7 @@
     "category": "Mobile",
     "price": "₹149,999",
     "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+    "image": "https://images.unsplash.com/photo-1657731739861-b21d95062cbf?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "The future of mobile multitasking. Folds down into a sleek compact smartphone and opens up into an immersive mini-tablet display.",
     "features": [
       "Dynamic Foldable Screen",
@@ -331,22 +331,22 @@
   },
   {
     "id": 23,
-    "name": "Motorized Standing Desk",
+    "name": "Apex Elite-Dock 12-in-1 Hub",
     "category": "Setups",
-    "price": "₹19,999",
+    "price": "₹12,499",
     "rating": 4.8,
-    "image": "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c",
-    "full_description": "Switch between sitting and standing effortlessly with dual quiet motors, digital memory presets, and a robust anti-collision safety system.",
+    "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece",
+    "full_description": "Power up your entire multi-display setup with a heavy-duty aluminum docking station delivering triple display outputs and rapid power passthrough.",
     "features": [
-      "Dual Motor Adjustment",
-      "4 Memory Height Presets",
-      "Anti-Collision Sensor",
-      "Heavy Duty Steel Frame"
+      "Triple Display Passthrough",
+      "100W Power Delivery",
+      "10Gbps Data Transfer Port",
+      "Anodized Aluminum Body"
     ]
   },
   {
     "id": 24,
-    "name": "VR Gaming Headset",
+    "name": "VR Standalone Headset",
     "category": "Consoles",
     "price": "₹34,999",
     "rating": 4.7,
@@ -361,22 +361,22 @@
   },
   {
     "id": 25,
-    "name": "Portable Bluetooth Speaker",
+    "name": "Apex SonicBoom Bluetooth Speaker",
     "category": "Audio",
     "price": "₹6,999",
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1",
     "full_description": "Take the party anywhere. A waterproof portable speaker that puts out surprisingly deep bass and features a rugged, floatable outdoor body.",
     "features": [
-      "IP67 Waterproof & Dustproof",
-      "15 Hours Playtime",
+      "IP67 Waterproof Rating",
+      "15 Hours Deep Playtime",
       "PartyBoost Stereo Sync",
       "Rugged Fabric Exterior"
     ]
   },
   {
     "id": 26,
-    "name": "Gaming Flight Joystick",
+    "name": "Apex Flight-Deck Throttle Joystick",
     "category": "Gaming",
     "price": "₹12,499",
     "rating": 4.5,
@@ -385,21 +385,21 @@
     "features": [
       "Detachable Throttle",
       "Dual-Rudder Control",
-      "Adjustable Stick Resistance",
-      "Comprehensive Action Buttons"
+      "Adjustable Resistance",
+      "Comprehensive Map Keys"
     ]
   },
   {
     "id": 27,
-    "name": "Minimalist Smart Ring",
+    "name": "Apex Helix Smart Wellness Ring",
     "category": "Wearables",
     "price": "₹19,999",
     "rating": 4.3,
-    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e",
+    "image": "https://images.unsplash.com/photo-1760088348194-a5ac70a8aa9f?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Discreet, screens-free wellness health tracking directly on your finger. Monitors body temperature, recovery scores, and precise sleep metrics.",
     "features": [
       "Screen-Free Wellness",
-      "Body Temperature Sensors",
+      "Body Temp Sensors",
       "Ultra-Lightweight Fit",
       "7-Day Battery Charge"
     ]
@@ -410,7 +410,7 @@
     "category": "Mobile",
     "price": "₹32,999",
     "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1565630916779-e303be97b6f5",
+    "image": "https://images.unsplash.com/photo-1573820841182-8c43b3bf0a77?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "The perfect sweet spot of premium features like rapid wired charging, vivid OLED visuals, and powerful gaming performance at an accessible price.",
     "features": [
       "80W SuperVOOC Charging",
@@ -421,11 +421,11 @@
   },
   {
     "id": 29,
-    "name": "RGB LED Desk Strip",
+    "name": "RGB LED Smart Ambience Strips",
     "category": "Setups",
     "price": "₹2,199",
     "rating": 4.4,
-    "image": "https://images.unsplash.com/photo-1563245372-f21724e3856d",
+    "image": "https://images.unsplash.com/photo-1659066019874-7a15628cea60?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Transform your gaming room ambiance. Smart ambient lighting strips that seamlessly sync up with your PC audio or television visuals.",
     "features": [
       "Smart App Control",
@@ -436,22 +436,22 @@
   },
   {
     "id": 30,
-    "name": "Handheld Gaming Device",
+    "name": "Handheld Mobile PC Console",
     "category": "Consoles",
     "price": "₹39,999",
     "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1605901309584-818e25960a8f",
+    "image": "https://images.unsplash.com/photo-1718966324550-0a312d32c535?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Play your full PC library on the go. High-performance mobile computing hardware built straight into a portable console ergonomics framework.",
     "features": [
       "7-inch Touch Display",
-      "Full PC Game Library Compatibility",
+      "Full PC Compatibility",
       "Ergonomic Thumbsticks",
       "Expandable MicroSD Slot"
     ]
   },
   {
     "id": 31,
-    "name": "Open-Back Audiophile Headphones",
+    "name": "Apex Open-Acoustic Audiophile Headset",
     "category": "Audio",
     "price": "₹15,499",
     "rating": 4.8,
@@ -466,7 +466,7 @@
   },
   {
     "id": 32,
-    "name": "Streaming Capture Card",
+    "name": "Streaming 4K Capture Card",
     "category": "Gaming",
     "price": "₹14,999",
     "rating": 4.6,
@@ -504,18 +504,18 @@
     "full_description": "An incredibly sleek, razor-thin phone body that features clean lines, premium glass backs, and beautiful symmetrical bezels all around.",
     "features": [
       "6.5mm Ultra-Slim Body",
-      "Symmetrical Bezel Display",
+      "Symmetrical Display",
       "Gorilla Glass Victus",
       "Wireless Charging Ready"
     ]
   },
   {
     "id": 35,
-    "name": "Desk Cable Management Tray",
+    "name": "Under-Desk Steel Cable Tray",
     "category": "Setups",
     "price": "₹1,299",
     "rating": 4.3,
-    "image": "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a",
+    "image": "https://images.unsplash.com/photo-1664457225218-b2ac27fa73df?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Hide messy power bricks and cord clusters easily under your desk with this heavy steel mesh under-desk cable organizer tray.",
     "features": [
       "No-Drill Clamp Mount",
@@ -526,7 +526,7 @@
   },
   {
     "id": 36,
-    "name": "Console Racing Wheel",
+    "name": "Console Force-Feedback Racing Wheel",
     "category": "Consoles",
     "price": "₹26,999",
     "rating": 4.6,
@@ -556,7 +556,7 @@
   },
   {
     "id": 38,
-    "name": "Gaming Eyewear Glasses",
+    "name": "Apex SightShield Gaming Eyewear",
     "category": "Gaming",
     "price": "₹1,999",
     "rating": 4.3,
@@ -566,7 +566,7 @@
       "65% Blue Light Filtering",
       "Anti-Glare Coating Lens",
       "Ultra-Lightweight Frames",
-      "Headset-Compatible Temples"
+      "Headset-Ready Temples"
     ]
   },
   {
@@ -575,7 +575,7 @@
     "category": "Wearables",
     "price": "₹14,499",
     "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1517502884422-41eaead166d4",
+    "image": "https://images.unsplash.com/photo-1654008336992-67bfabd11916?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "The perfect balance of style and substance. Features mechanical physical watch hands over a hidden digital crisp smart info screen.",
     "features": [
       "Physical Mechanical Hands",
@@ -586,11 +586,11 @@
   },
   {
     "id": 40,
-    "name": "Rugged Outdoor Phone",
+    "name": "Rugged Outdoor Armored Phone",
     "category": "Mobile",
     "price": "₹27,999",
     "rating": 4.4,
-    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa",
+    "image": "https://images.unsplash.com/photo-1598346653951-aeb1396d64ac?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Built like an armored tank for construction worksites and wilderness treks. Completely drop-proof, water-submersible, and shatter-resistant.",
     "features": [
       "MIL-STD-810H Certified",
@@ -601,26 +601,26 @@
   },
   {
     "id": 41,
-    "name": "Desk Felt Writing Pad",
+    "name": "Apex Glide-Premium Desk Pad",
     "category": "Setups",
     "price": "₹1,199",
     "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1632292224971-0d45778bd364",
-    "full_description": "Add cozy texture to your office setup. Made of eco-friendly vegan premium felt wool to shield desks from scratches while acting as an accurate mousepad surface.",
+    "image": "https://images.unsplash.com/photo-1700451960095-c37c0b388624?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "full_description": "Add crisp tech tracking texture to your desk setup. Splash-proof micro-weave texture shielding your desktop while serving as an exceptional mouse tracking layer.",
     "features": [
-      "Premium Vegan Felt Wool",
-      "Anti-Slip Dot Under-layer",
-      "Large Desktop Shield",
-      "Minimalist Work Aesthetics"
+      "Premium Textured Top",
+      "Anti-Slip Grip Base",
+      "Large Desktop Coverage",
+      "Minimalist Workspace Style"
     ]
   },
   {
     "id": 42,
-    "name": "Console Cooling Stand",
+    "name": "Console Silent Vertical Cooling Stand",
     "category": "Consoles",
     "price": "₹2,999",
     "rating": 4.3,
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e",
+    "image": "https://images.unsplash.com/photo-1612036781124-847f8939b154?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Keep your next-gen console performing cool. Vertical stand integrated with silent cooling exhaust fans, controller docks, and game media slots.",
     "features": [
       "Dual Quiet Cooling Fans",
@@ -635,27 +635,27 @@
     "category": "Audio",
     "price": "₹12,999",
     "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1588449668338-d1517824e481",
+    "image": "https://images.unsplash.com/photo-1706289835533-3cb1956beeb3?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Immersive sound profiles crafted by studio audiophile masters. Features hybrid dual-mic active noise cancellation alongside deep rich customized bass notes.",
     "features": [
       "Smart Hybrid ANC Level",
-      "Custom Coaxial Dual Drivers",
-      "Hi-Res Audio Wireless Cert",
+      "Custom Coaxial Drivers",
+      "Hi-Res Audio Certified",
       "Crystal Clear 6-Mic Calls"
     ]
   },
   {
     "id": 44,
-    "name": "RGB Mechanical Numeric Pad",
+    "name": "RGB Mechanical Numeric Macro-Pad",
     "category": "Gaming",
     "price": "₹2,499",
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1595225476474-87563907a212",
     "full_description": "The perfect extension addon for custom competitive setups. Features clicky tactile keys for macros, math bindings, or specialized stream bindings.",
     "features": [
-      "Tactile Blue Mechanical Keys",
-      "Fully Programmable Macro Map",
-      "Independent Dynamic Backlighting",
+      "Tactile Blue Clicky Keys",
+      "Fully Programmable Map",
+      "Independent RGB Glow",
       "PBT Wear-Resistant Caps"
     ]
   },
@@ -668,10 +668,10 @@
     "image": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9",
     "full_description": "Get gorgeous smartwatch aesthetics in a slim profile. Large rectangular vivid AMOLED screen displaying rich notification dials and sports progress trackers.",
     "features": [
-      "1.64-inch Always-on AMOLED",
-      "110+ Extensive Workout Modes",
-      "Continuous Heart & Stress Monitors",
-      "Fast Magnetic Snap Charging"
+      "1.64-inch Always-on Screen",
+      "110+ Extensive Workouts",
+      "Heart & Stress Monitors",
+      "Fast Magnetic Charging"
     ]
   },
   {
@@ -691,32 +691,32 @@
   },
   {
     "id": 47,
-    "name": "Under-Desk Headphone Mount",
+    "name": "Under-Desk Aluminum Headphone Mount",
     "category": "Setups",
     "price": "₹899",
     "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+    "image": "https://images.unsplash.com/photo-1653430467220-d54e83b717ea?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "full_description": "Declutter workspace areas immediately. Sturdy spring-loaded clamp hook that mounts perfectly onto desktop edges to support hanging headsets cleanly.",
     "features": [
-      "360-degree Adjustable Hook Rotation",
-      "Built-In Cable Management Loops",
-      "Soft Protective Rubber Pads",
-      "No-Tool Quick Installation"
+      "360-degree Hook Rotation",
+      "Built-In Cable Organizers",
+      "Soft Protective Rubber",
+      "No-Tool Quick Install"
     ]
   },
   {
     "id": 48,
-    "name": "Premium Console Wireless Headset",
+    "name": "Premium Console Wired Earphones",
     "category": "Consoles",
     "price": "₹16,499",
     "rating": 4.8,
-    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b",
+    "image": "https://images.unsplash.com/photo-1608156639585-b3a032ef9689",
     "full_description": "Engineered exclusively for next-generation consoles spatial immersive soundscapes. Features comfortable plush leatherette memory foam cushions and a hidden noise isolating microphone.",
     "features": [
       "3D Spatial Audio Tuning",
-      "Lossless 2.4Ghz Wireless Connection",
-      "24-Hour Premium Battery Endurance",
-      "On-Ear Balanced Chat Mix Mix Dial"
+      "Lossless 2.4Ghz Wired",
+      "Braided Clables",
+      "In-Ear Balanced Chat Mix"
     ]
   }
 ]

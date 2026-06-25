@@ -1,34 +1,62 @@
 [
   {
-    "id": 1,
-    "name": "Apex Pro Headset",
-    "price": "₹4,999",
-    "category": "Audio",
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
-    "rating": 4.8
+    "id": 39,
+    "name": "Hybrid Sports Smartwatch",
+    "category": "Wearables",
+    "price": "₹14,499",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1654008336992-67bfabd11916?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "full_description": "The perfect balance of style and substance. Features mechanical physical watch hands over a hidden digital crisp smart info screen.",
+    "features": [
+      "Physical Mechanical Hands",
+      "Hidden OLED Touch Display",
+      "Real-time VO2 Max tracking",
+      "Up to 21 Days Charge"
+    ]
   },
   {
-    "id": 2,
-    "name": "Mechanical Keyboard",
-    "price": "₹6,999",
-    "category": "Gaming",
-    "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae",
-    "rating": 4.7
+    "id": 12,
+    "name": "Next-Gen Gaming Console",
+    "category": "Consoles",
+    "price": "₹49,999",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
+    "full_description": "Experience lightning-fast loading speeds, ultra-high-definition 4K graphics at up to 120 FPS, and a deeply immersive gaming eco-system.",
+    "features": [
+      "Custom Ultra-Fast SSD",
+      "4K Gaming @ 120FPS",
+      "Ray Tracing Technology",
+      "Backward Compatibility"
+    ]
   },
   {
     "id": 3,
-    "name": "Smart Watch X",
-    "price": "₹8,999",
+    "name": "Apple Watch Series 9",
     "category": "Wearables",
+    "price": "₹41,999",
+    "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
-    "rating": 4.5
+    "full_description": "The ultimate device for a healthy life is now even more powerful. Features the S9 SiP chip, a brighter display, and a magic new way to use your watch without touching the screen.",
+    "features": [
+      "Double tap gesture",
+      "Advanced health tracking",
+      "Crash detection",
+      "Always-On Retina display"
+    ]
   },
   {
-    "id": 4,
-    "name": "Gaming Mouse",
-    "price": "₹2,499",
-    "category": "Gaming",
-    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db",
-    "rating": 4.6
+    "id": 9,
+    "name": "Apex NeoPods True Wireless Earbuds",
+    "category": "Audio",
+    "price": "₹3,999",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1578319439584-104c94d37305?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "full_description": "True wireless earbuds featuring premium sound engineering, touch controls, and a compact charging case built for everyday commuters.",
+    "features": [
+      "Active Noise Cancellation",
+      "IPX5 Water Resistance",
+      "24-Hour Battery Backup",
+      "Voice Assistant Support"
+    ]
   }
 ]
