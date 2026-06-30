@@ -1,15 +1,15 @@
-import { useState } from "react";
 import Style from "./ProductCard.module.css";
 
 import { Link } from "react-router-dom";
+
+import { useWishlist } from "../../context/WishlistContext/wishlistContext";
 
 import HeartLineIcon from "@iconify-react/si/heart-line";
 import HeartFillIcon from "@iconify-react/si/heart-fill";
 import RoundStarIcon from "@iconify-react/ic/round-star-rate";
 
 const ProductCard = ({ product, id }) => {
-  const [isWishlisted, setIsWishlisted] = useState(false);
-
+  const { toggleWishlist, isWishlisted } = useWishlist();
   return (
     <div
       className={`${Style.card} group rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300`}
@@ -22,11 +22,16 @@ const ProductCard = ({ product, id }) => {
         />
 
         <button
-          onClick={() => setIsWishlisted(!isWishlisted)}
+          onClick={() =>
+            toggleWishlist({
+              id,
+              ...product,
+            })
+          }
           className={`${Style.wishlistBtn} absolute top-4 right-4 p-2.5 rounded-full shadow-md transition-transform duration-200 active:scale-95`}
           aria-label="Add to wishlist"
         >
-          {isWishlisted ? (
+          {isWishlisted(id) ? (
             <HeartFillIcon height="1em" />
           ) : (
             <HeartLineIcon height="1em" />

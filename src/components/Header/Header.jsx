@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import {
   Headphones,
   Keyboard,
@@ -15,12 +15,48 @@ import {
 import logo from "../../assets/images/logo/logo.svg";
 import { ElDropdown, ElMenu } from "@tailwindplus/elements/react";
 
+import { Link, useNavigate } from "react-router-dom";
+import products from "../../data/products.json";
+import { useWishlist } from "../../context/WishlistContext/wishlistContext";
+
 import Style from "./Header.module.css";
 
-const Header = () => {
+const Header = ({ search, setSearch }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // 1. Turned the array into an array of objects with Lucide icon references
+  const navigate = useNavigate();
+  const searchRef = useRef(null);
+
+  const suggestions =
+    search.trim() === ""
+      ? []
+      : products
+          .filter((product) => {
+            const keyword = search.toLowerCase();
+
+            return (
+              product.name.toLowerCase().includes(keyword) ||
+              product.category.toLowerCase().includes(keyword)
+            );
+          })
+          .slice(0, 5);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
+        setSearch("");
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [setSearch]);
+
+  const { wishlist, setIsDrawerOpen } = useWishlist();
+
   const categories = [
     { name: "Audio", icon: Headphones },
     { name: "Gaming", icon: Keyboard },
@@ -34,13 +70,11 @@ const Header = () => {
     <header className={`${Style.header} sticky top-0 z-50 shadow-sm`}>
       <div className="max-w-7xl mx-auto px-4">
         <div className="h-16 flex items-center justify-between">
-          {/* Logo Section */}
           <div className="flex items-center gap-1">
             <img src={logo} alt="logo" className="w-12 h-12" />
             <h1 className={`font-bold ${Style.logo}`}>Apex</h1>
           </div>
 
-          {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6">
             {/* ====== CATEGORIES DROPDOWN ====== */}
             <ElDropdown className="inline-block relative">
@@ -86,38 +120,108 @@ const Header = () => {
             </button>
           </nav>
 
-          {/* Search Bar Desktop */}
-          <div className="hidden md:flex relative w-80">
+          <div
+            ref={searchRef}
+            className="hidden md:flex relative w-80 flex-col"
+          >
             <Search size={18} className="absolute left-3 top-3 text-gray-400" />
             <input
               type="text"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && search.trim()) {
+                  navigate(`/search?q=${encodeURIComponent(search)}`);
+                  setSearch("");
+                }
+              }}
               placeholder="Search products..."
               className="w-full border rounded-full py-2 pl-10 pr-4 focus:outline-none"
             />
+
+            {search.trim() !== "" && (
+              <div className="absolute top-full mt-2 w-full bg-white rounded-xl shadow-xl border z-50 overflow-hidden">
+                {suggestions.length > 0 ? (
+                  <>
+                    {suggestions.map((product) => (
+                      <Link
+                        key={product.id}
+                        to={`/product/${product.id}`}
+                        onClick={() => setSearch("")}
+                        className="flex items-center gap-3 p-3 hover:bg-gray-100 transition"
+                      >
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                          className="w-12 h-12 rounded object-cover"
+                        />
+
+                        <div className="flex-1">
+                          <h3 className="font-medium text-sm">
+                            {product.name}
+                          </h3>
+
+                          <p className="text-xs text-gray-500">
+                            {product.category}
+                          </p>
+                        </div>
+                      </Link>
+                    ))}
+
+                    <button
+                      onClick={() => {
+                        navigate(`/search?q=${encodeURIComponent(search)}`);
+                        setSearch("");
+                      }}
+                      className="w-full text-left p-3 border-t hover:bg-gray-100 font-semibold"
+                    >
+                      View all results →
+                    </button>
+                  </>
+                ) : (
+                  <div className="p-4 text-center text-gray-500">
+                    No matching products
+                  </div>
+                )}
+              </div>
+            )}
           </div>
 
-          {/* Wishlist Desktop */}
-          <div className="hidden lg:flex items-center gap-2 cursor-pointer">
-            <Heart size={22} />
+          <div
+            onClick={() => setIsDrawerOpen(true)}
+            className="hidden lg:flex items-center gap-2 cursor-pointer relative"
+          >
+            <Heart size={24} />
+
+            {wishlist.length > 0 && (
+              <span className="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-black text-white text-xs flex items-center justify-center">
+                {wishlist.length}
+              </span>
+            )}
           </div>
 
-          {/* Mobile Menu Toggle Button */}
           <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden">
             {isOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
 
-        {/* Mobile Search Bar */}
         <div className="md:hidden pb-3">
           <input
             type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter" && search.trim()) {
+                navigate(`/search?q=${encodeURIComponent(search)}`);
+                setSearch("");
+              }
+            }}
             placeholder="Search products..."
             className="w-full border rounded-full px-4 py-2"
           />
         </div>
       </div>
 
-      {/* Mobile Drawer Navigation */}
       <div
         className={`
           lg:hidden overflow-hidden transition-all duration-300

@@ -9,6 +9,7 @@ import InfiniteScrollSection from "../../components/InfiniteScrollSection/Infini
 
 const Home = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
+  const [search, setSearch] = useState("");
 
   const handleCategoryClick = (category) => {
     setSelectedCategory((prevCategory) =>
@@ -18,7 +19,7 @@ const Home = () => {
 
   return (
     <>
-      <Header />
+      <Header search={search} setSearch={setSearch} />
       <Hero />
       <FeaturedProducts />
       <CategoryFilter
